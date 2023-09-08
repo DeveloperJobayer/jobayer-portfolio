@@ -12,6 +12,7 @@ h1{
 }
 p{
     text-align: justify;
+    width: 90%;
 }
 .text-color{
     color: tomato;
@@ -19,12 +20,13 @@ p{
 .hero-area{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 .half-width{
     width: 40%;
     float: left;
     padding: 2%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-left: 5%;
 }
 .link-button{
@@ -39,4 +41,9 @@ p{
 .half-width img{
     width: 70%;
     /* height: 600px; */
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
